@@ -1,0 +1,1172 @@
+{
+  "accounts": {
+    "monobank": [
+      {
+        "balance": 1254300,
+        "creditLimit": null,
+        "currency": "UAH",
+        "id": "mono-1001",
+        "suffix": "*1001",
+        "type": "black"
+      },
+      {
+        "balance": 3820000,
+        "creditLimit": null,
+        "currency": "UAH",
+        "id": "mono-1002",
+        "suffix": "*1002",
+        "type": "white"
+      },
+      {
+        "balance": 512750,
+        "creditLimit": null,
+        "currency": "UAH",
+        "id": "mono-1003",
+        "suffix": "*1003",
+        "type": "white"
+      },
+      {
+        "balance": 125000,
+        "creditLimit": 3000000,
+        "currency": "UAH",
+        "id": "mono-1004",
+        "suffix": "*1004",
+        "type": "platinum"
+      }
+    ],
+    "privatbank": []
+  },
+  "receipts": [
+    {
+      "documentNumber": "1000000001",
+      "fiscalSum": 79259,
+      "fiscalTime": "2026-08-21T18:12:00+03:00",
+      "id": "4f2db2fe-0807-5f60-8216-a85145d170a3",
+      "items": [
+        {
+          "id": "5ed039e5-ad8d-5ac0-8c09-5e92b602faac",
+          "name": "Хліб житній",
+          "price": 3250,
+          "qty": 1,
+          "sum": 3250
+        },
+        {
+          "id": "28a86459-16d7-5bd2-883e-d4fd7d488ef8",
+          "name": "Молоко 2,5% 900 мл",
+          "price": 4190,
+          "qty": 2,
+          "sum": 8380
+        },
+        {
+          "id": "ef44e467-8b72-5955-8b10-5137d28ba999",
+          "name": "Яйця С1, 10 шт",
+          "price": 6800,
+          "qty": 1,
+          "sum": 6800
+        },
+        {
+          "id": "cb4d848f-d334-5e1f-bdf3-3551fb94df90",
+          "name": "Сир кисломолочний 9%",
+          "price": 7430,
+          "qty": 1,
+          "sum": 7430
+        },
+        {
+          "id": "66d407eb-377f-5acb-83c9-e66ac2f31277",
+          "name": "Яблука",
+          "price": 3900,
+          "qty": 1.24,
+          "sum": 4836
+        },
+        {
+          "id": "bb96a95b-8c2e-5c92-a176-cc02b6b9b50f",
+          "name": "Курка охолоджена",
+          "price": 12990,
+          "qty": 1.68,
+          "sum": 21823
+        },
+        {
+          "id": "f2721c0e-235b-59b6-8b28-b87de4af2190",
+          "name": "Олія соняшникова 1 л",
+          "price": 7840,
+          "qty": 1,
+          "sum": 7840
+        },
+        {
+          "id": "07660695-01c5-55bf-8926-a66db5308eab",
+          "name": "Кава мелена 250 г",
+          "price": 18900,
+          "qty": 1,
+          "sum": 18900
+        }
+      ],
+      "registerNumber": "3000000001",
+      "scannedAt": "2026-08-21T18:12:00+03:00",
+      "sellerName": "Магазин «Затишок»"
+    },
+    {
+      "documentNumber": "1000000002",
+      "fiscalSum": 5299,
+      "fiscalTime": "2026-08-20T09:05:00+03:00",
+      "id": "df28cb75-0dc8-55f7-b520-e0c78d0dbd6a",
+      "items": [
+        {
+          "id": "a4123094-c35d-5d95-a440-07be4a013fcc",
+          "name": "Вода негазована 0,5 л",
+          "price": 2100,
+          "qty": 1,
+          "sum": 2100
+        },
+        {
+          "id": "b2c3f3d6-54b8-5752-9b00-2bbcddda54ce",
+          "name": "Батончик горіховий",
+          "price": 3199,
+          "qty": 1,
+          "sum": 3199
+        }
+      ],
+      "registerNumber": "3000000002",
+      "scannedAt": "2026-08-20T09:05:00+03:00",
+      "sellerName": "Кіоск «Ранок»"
+    },
+    {
+      "documentNumber": "1000000003",
+      "fiscalSum": 28701,
+      "fiscalTime": "2026-08-19T15:40:00+03:00",
+      "id": "6d044b40-1280-5ea8-b1d2-97f1b9dbc7db",
+      "items": [
+        {
+          "id": "fb4c2cfa-3aa6-5f2a-879a-362a80990468",
+          "name": "Капучино",
+          "price": 8500,
+          "qty": 2,
+          "sum": 17000
+        },
+        {
+          "id": "8c9d7902-2918-5f2a-9ff9-221edae93754",
+          "name": "Круасан з мигдалем",
+          "price": 9201,
+          "qty": 1,
+          "sum": 9201
+        },
+        {
+          "id": "0121a710-7050-5c96-992e-9fbf844cc73e",
+          "name": "Вода 0,33 л",
+          "price": 2500,
+          "qty": 1,
+          "sum": 2500
+        }
+      ],
+      "registerNumber": "3000000003",
+      "scannedAt": "2026-08-19T15:40:00+03:00",
+      "sellerName": "Кав'ярня «Пауза»"
+    },
+    {
+      "documentNumber": "1000000004",
+      "fiscalSum": 92380,
+      "fiscalTime": "2026-08-20T08:41:00+03:00",
+      "id": "d7e539d5-7d9e-53fc-9fe8-d355d006c0a9",
+      "items": [
+        {
+          "id": "e3d358c8-696a-5d2a-86ff-011cb675332e",
+          "name": "Бензин А-95-Євро5",
+          "price": 7450,
+          "qty": 12.4,
+          "sum": 92380
+        }
+      ],
+      "registerNumber": "3000000004",
+      "scannedAt": "2026-08-20T08:41:00+03:00",
+      "sellerName": "АЗС «Приклад»"
+    },
+    {
+      "documentNumber": "1000000005",
+      "fiscalSum": 80000,
+      "fiscalTime": "2026-08-19T17:26:00+03:00",
+      "id": "685383f4-e4ee-5c8e-ade9-bd15ed420157",
+      "items": [
+        {
+          "id": "dce6a3e1-c39f-57fd-807a-2dd54242c2c5",
+          "name": "Бензин А-95-Євро5",
+          "price": 8000,
+          "qty": 10.0,
+          "sum": 80000
+        }
+      ],
+      "registerNumber": "3000000005",
+      "scannedAt": "2026-08-19T17:26:00+03:00",
+      "sellerName": "АЗС «Приклад»"
+    },
+    {
+      "documentNumber": "1000000006",
+      "fiscalSum": 14580,
+      "fiscalTime": "2026-07-24T09:21:00+03:00",
+      "id": "ac882899-807c-53e4-9017-664cc7aec09d",
+      "items": [
+        {
+          "id": "e608af26-8e6d-557b-9b4b-e90742b003c8",
+          "name": "Мийка автомобіля",
+          "price": 14580,
+          "qty": 1,
+          "sum": 14580
+        }
+      ],
+      "registerNumber": "3000000006",
+      "scannedAt": "2026-07-24T09:21:00+03:00",
+      "sellerName": "Автомийка «Приклад»"
+    }
+  ],
+  "rules": [
+    {
+      "ambiguous": false,
+      "category": "Кредит",
+      "merchantKey": "*1004"
+    },
+    {
+      "ambiguous": true,
+      "category": null,
+      "merchantKey": "novapay"
+    },
+    {
+      "ambiguous": false,
+      "category": "Продукти",
+      "merchantKey": "атб"
+    },
+    {
+      "ambiguous": false,
+      "category": "Транспорт",
+      "merchantKey": "uklon"
+    },
+    {
+      "ambiguous": false,
+      "category": "Розваги",
+      "merchantKey": "megogo"
+    }
+  ],
+  "transactions": [
+    {
+      "amount": -139000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-01-01T09:00:00+02:00",
+      "id": "78890ce2-021b-5f0c-926c-e15b43f78577",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-01-05T12:00:00+02:00",
+      "id": "78e8c5bb-7ed0-5de2-a4e4-31a881734e4b",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -31000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-01-10T18:30:00+02:00",
+      "id": "f0e2ce0a-28d3-50e7-8698-cd1e03c90659",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -140100,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-02-01T09:00:00+02:00",
+      "id": "ea0f1cd5-6c1d-537c-8831-8a04f0993577",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-02-05T12:00:00+02:00",
+      "id": "22ca0b7d-c0fc-5798-b387-4fd802c56d83",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -33370,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-02-11T18:30:00+02:00",
+      "id": "0dc8d1c9-157e-522a-9114-eed7dbb7ffe4",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -141200,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-03-01T09:00:00+02:00",
+      "id": "b52dde16-3173-592e-8087-90f96fb69d33",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-03-05T12:00:00+02:00",
+      "id": "09d6e1af-c180-5b59-b4d2-55985732df03",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -19900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Розваги",
+      "date": "2026-03-12T00:10:00+02:00",
+      "id": "af5945de-4955-5156-98ef-8a5315043a76",
+      "kind": "expense",
+      "merchant": "Megogo",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -35740,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-03-12T18:30:00+02:00",
+      "id": "f9999c1a-e03c-573e-ade1-c8d3f95e187b",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -142300,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-04-01T09:00:00+03:00",
+      "id": "86348763-5fcf-5d3e-af65-3bcdc583d208",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-04-05T12:00:00+03:00",
+      "id": "0922941d-8b95-5048-a6a7-25c995ec2983",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -38110,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-04-13T18:30:00+03:00",
+      "id": "c2110698-2840-5333-aa61-53a5cd933094",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -45520,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-04-26T12:15:00+03:00",
+      "id": "807eda9f-7717-59c5-919f-39ad037762a0",
+      "kind": "expense",
+      "merchant": "Сільпо",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -143400,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-05-01T09:00:00+03:00",
+      "id": "72d71126-5bee-55d4-95e5-a26bbfbaa26f",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-05-05T12:00:00+03:00",
+      "id": "053e8ac1-b128-5503-b3db-90aa83ee74fb",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -200000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "",
+      "date": "2026-05-08T09:30:00+03:00",
+      "id": "43690179-9dd8-5c2d-b6c6-f282dd2648ab",
+      "kind": "transfer",
+      "merchant": "Переказ на свою картку *1004",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 200000,
+      "bankId": "monobank",
+      "cardSuffix": "*1004",
+      "category": "",
+      "date": "2026-05-08T09:31:00+03:00",
+      "id": "3289f23e-4b93-52a4-9344-21238a299674",
+      "kind": "transfer",
+      "merchant": "Переказ зі своєї картки *1001",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -40480,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-05-14T18:30:00+03:00",
+      "id": "92ce7154-6061-557d-a408-c75e346cbdf3",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -33000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-05-21T19:00:00+03:00",
+      "id": "492c6bf1-b91c-59a2-a575-85bf7e3f5b06",
+      "kind": "expense",
+      "merchant": "Платіж",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Квартплата",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -144500,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-06-01T09:00:00+03:00",
+      "id": "20861ee5-7170-52f5-887a-3412a9d29096",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-06-05T12:00:00+03:00",
+      "id": "beab73b5-5710-5530-b87b-8e3c35e81ff0",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -20000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-06-09T10:10:00+03:00",
+      "id": "c945ba80-bcb0-5bca-9f97-c007ae3a2384",
+      "kind": "expense",
+      "merchant": "На картку",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Подарунки",
+        "Послуги",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -54900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Покупки",
+      "date": "2026-06-11T15:20:00+03:00",
+      "id": "2f242c62-c25a-5031-b81b-f1d169665958",
+      "kind": "expense",
+      "merchant": "Rozetka",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Покупки",
+        "Дім та ремонт",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -42850,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-06-15T18:30:00+03:00",
+      "id": "9eb4bc5a-56e9-540f-b53d-c4026ef4b45b",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -16500,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Транспорт",
+      "date": "2026-06-17T22:40:00+03:00",
+      "id": "76fa7f0d-6875-5cc1-9c68-5147559544b2",
+      "kind": "expense",
+      "merchant": "Uklon",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -15400,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-06-24T17:20:00+03:00",
+      "id": "11670a30-94c4-54d1-a1a2-547694e07561",
+      "kind": "expense",
+      "merchant": "NovaPay",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Покупки",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -19900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-07-03T13:00:00+03:00",
+      "id": "bf47ecdc-5505-5b08-9ce8-e5fd13d35733",
+      "kind": "expense",
+      "merchant": "Платіж",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Квартплата",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-07-05T12:00:00+03:00",
+      "id": "bf9c1943-ba69-58d4-81d1-74474cbe890f",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 250000,
+      "bankId": "monobank",
+      "cardSuffix": "*1002",
+      "category": "Стипендія",
+      "date": "2026-07-10T09:00:00+03:00",
+      "id": "7ce68d1e-7e86-5309-b385-af06d04d5b6d",
+      "kind": "income",
+      "merchant": "Стипендія",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -50000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-07-12T11:15:00+03:00",
+      "id": "894ea2c1-4f8f-5fa3-a11e-1eebf7e5d82b",
+      "kind": "expense",
+      "merchant": "На картку",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Подарунки",
+        "Послуги",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -214000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Квартплата",
+      "date": "2026-07-15T10:00:00+03:00",
+      "id": "7f7439c4-9fbf-50ce-9cb6-3854b4c5c464",
+      "kind": "expense",
+      "merchant": "Комунальні послуги",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -8500,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-07-16T11:30:00+03:00",
+      "id": "637d9f7d-9186-599a-822b-13903215f0e6",
+      "kind": "expense",
+      "merchant": "Justin",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Покупки",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -21400,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кафе та ресторани",
+      "date": "2026-07-19T14:20:00+03:00",
+      "id": "33ec7910-acb3-51d9-bc95-3ee031dd2637",
+      "kind": "expense",
+      "merchant": "McDonald's",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -36000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Тварини",
+      "date": "2026-07-21T17:35:00+03:00",
+      "id": "6cb4dfbc-1513-5203-8326-966abbe2a9a7",
+      "kind": "expense",
+      "merchant": "Зоомагазин «Хвостик»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -50000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Благодійність",
+      "date": "2026-07-22T20:00:00+03:00",
+      "id": "13ad5748-653a-5f62-9bba-e9c70b66521f",
+      "kind": "expense",
+      "merchant": "Повернись живим",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -14580,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Автомобіль",
+      "date": "2026-07-24T09:21:00+03:00",
+      "id": "e9d0f6eb-4061-5ed2-a17f-32f1e4ba4dc3",
+      "kind": "expense",
+      "merchant": "Мийка самообслуговування",
+      "receiptId": "ac882899-807c-53e4-9017-664cc7aec09d",
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -8900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-07-25T16:45:00+03:00",
+      "id": "2067e531-22ee-5b25-96f7-8ed1ea7f4be5",
+      "kind": "expense",
+      "merchant": "NovaPay",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Покупки",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -27500,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-07-28T12:00:00+03:00",
+      "id": "51517821-2f6a-5394-9bed-6c3a9b90dab9",
+      "kind": "expense",
+      "merchant": "Платіж",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Квартплата",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -51780,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-07-30T19:10:00+03:00",
+      "id": "c96deaf6-240c-5290-b305-c7393849cd9a",
+      "kind": "expense",
+      "merchant": "Сільпо",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -142000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кредит",
+      "date": "2026-08-01T09:00:00+03:00",
+      "id": "edcdc482-1c0f-5ae9-bf20-9d78ffd0d8da",
+      "kind": "expense",
+      "merchant": "Відсотки за кредитом",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -30000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-08-02T09:30:00+03:00",
+      "id": "2fea6426-7027-5a6f-9eee-35e5519fe03b",
+      "kind": "expense",
+      "merchant": "На картку",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Подарунки",
+        "Послуги",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -31240,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Медицина",
+      "date": "2026-08-02T15:45:00+03:00",
+      "id": "46b6c11f-7753-53f0-b93c-a2a80a9ad0d2",
+      "kind": "expense",
+      "merchant": "Аптека АНЦ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -80000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "",
+      "date": "2026-08-03T19:30:00+03:00",
+      "id": "5aaf08e9-cde0-5713-81ec-4e0b5f11a4eb",
+      "kind": "transfer",
+      "merchant": "На картку",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -20000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Готівка",
+      "date": "2026-08-04T17:39:00+03:00",
+      "id": "812b1e29-45a5-5871-a4ef-28e4820924c4",
+      "kind": "expense",
+      "merchant": "Термінал самообслуговування",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 4500000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Зарплата",
+      "date": "2026-08-05T12:00:00+03:00",
+      "id": "0a24a37f-ed1e-5060-ab74-d86c5fc401a6",
+      "kind": "income",
+      "merchant": "ТОВ «Приклад Софт»",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 300000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "",
+      "date": "2026-08-06T09:00:00+03:00",
+      "id": "c44f2114-8d78-5299-af46-56331fa8b94e",
+      "kind": "transfer",
+      "merchant": "Переказ зі своєї картки *1002",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -150000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "",
+      "date": "2026-08-07T10:00:00+03:00",
+      "id": "5fb65403-2750-5138-bcc6-361b29ffe56a",
+      "kind": "transfer",
+      "merchant": "Переказ на свою картку *1004",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": 150000,
+      "bankId": "monobank",
+      "cardSuffix": "*1004",
+      "category": "",
+      "date": "2026-08-07T10:01:00+03:00",
+      "id": "4592007e-3b73-5211-b37f-e26e783cceff",
+      "kind": "transfer",
+      "merchant": "Переказ зі своєї картки *1001",
+      "receiptId": null,
+      "resolution": "transfer",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -12900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-08-08T14:10:00+03:00",
+      "id": "3e5ef550-bd95-56a4-9a63-eaa329c4e676",
+      "kind": "expense",
+      "merchant": "NovaPay",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Покупки",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -23815,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-08-09T18:20:00+03:00",
+      "id": "07a001da-68b7-5b6e-a198-196a5af88f86",
+      "kind": "expense",
+      "merchant": "АТБ",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -129900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Покупки",
+      "date": "2026-08-10T16:30:00+03:00",
+      "id": "23568f83-2c43-573c-8ad9-f67c101b4696",
+      "kind": "expense",
+      "merchant": "Rozetka",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Покупки",
+        "Дім та ремонт",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -6500,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-08-11T12:40:00+03:00",
+      "id": "adac9630-df05-5be2-b8ff-900d50de2307",
+      "kind": "expense",
+      "merchant": "NovaPay",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Покупки",
+        "Подарунки"
+      ]
+    },
+    {
+      "amount": -41900,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Розваги",
+      "date": "2026-08-12T00:10:00+03:00",
+      "id": "fcbb556d-0271-5a03-9a91-15686b94e332",
+      "kind": "expense",
+      "merchant": "Megogo",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -9600,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Кафе та ресторани",
+      "date": "2026-08-12T13:05:00+03:00",
+      "id": "dbbb9ff9-2041-5213-9382-101e009aaa47",
+      "kind": "expense",
+      "merchant": "Aroma Kava",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -18700,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Транспорт",
+      "date": "2026-08-14T08:15:00+03:00",
+      "id": "a608761f-0152-5c2d-a2e1-a66f3b6b4b66",
+      "kind": "expense",
+      "merchant": "Uklon",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -45000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Послуги",
+      "date": "2026-08-16T10:05:00+03:00",
+      "id": "776388b8-26f2-5139-ab73-1f0909096f9a",
+      "kind": "expense",
+      "merchant": "Платіж",
+      "receiptId": null,
+      "resolution": "pending",
+      "splits": [],
+      "suggestions": [
+        "Послуги",
+        "Квартплата",
+        "Покупки"
+      ]
+    },
+    {
+      "amount": -12000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Автомобіль",
+      "date": "2026-08-17T21:00:00+03:00",
+      "id": "1c3deb13-0989-556b-b0c4-1b8047a6d6a1",
+      "kind": "expense",
+      "merchant": "Паркінг Центр",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -64230,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-08-18T19:42:00+03:00",
+      "id": "56520ce6-4e66-54aa-8588-f1ef4422cb47",
+      "kind": "expense",
+      "merchant": "Сільпо",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -80000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Автомобіль",
+      "date": "2026-08-19T11:03:00+03:00",
+      "id": "551dced6-6d40-5401-aaa6-50d42f5336a2",
+      "kind": "expense",
+      "merchant": "WOG",
+      "receiptId": "685383f4-e4ee-5c8e-ade9-bd15ed420157",
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -65000,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Автомобіль",
+      "date": "2026-08-20T08:40:00+03:00",
+      "id": "e1452f6b-3710-511a-bde7-40b7dc6449b5",
+      "kind": "expense",
+      "merchant": "ОККО",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    },
+    {
+      "amount": -38940,
+      "bankId": "monobank",
+      "cardSuffix": "*1001",
+      "category": "Продукти",
+      "date": "2026-08-21T18:12:00+03:00",
+      "id": "f8a0c7af-b36e-5fd4-97e8-c1f69bc2725e",
+      "kind": "expense",
+      "merchant": "Сільпо",
+      "receiptId": null,
+      "resolution": "rule",
+      "splits": [],
+      "suggestions": []
+    }
+  ]
+}

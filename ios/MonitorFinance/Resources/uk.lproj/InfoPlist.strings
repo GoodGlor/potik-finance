@@ -1,0 +1,4 @@
+/* Board #130 — the HOME-SCREEN label, and the one surface iOS picks the
+   language for: it exists before the app runs, so it cannot read the
+   choice made in Settings. A phone set to Ukrainian reads this file. */
+"CFBundleDisplayName" = "Потік";

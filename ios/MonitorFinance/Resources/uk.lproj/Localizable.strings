@@ -1,0 +1,10 @@
+/* MonitorFinance — Ukrainian (identity — the keys ARE the Ukrainian text)
+   The KEY is the Ukrainian source text: a key with no entry here renders
+   as the key itself, so a string nobody has translated appears in
+   Ukrainian rather than as a raw identifier. See L10n.swift. */
+
+/* Deliberately empty: every key is already its own Ukrainian value,
+   and a file repeating the English catalogue's 353 keys as identity
+   pairs would be 353 more places to drift. The .lproj must still exist
+   so `uk` resolves to a real bundle rather than falling through to the
+   development language. */

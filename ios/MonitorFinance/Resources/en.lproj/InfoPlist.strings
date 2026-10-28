@@ -1,0 +1,4 @@
+/* Board #130 — the home-screen label for an English phone. The base
+   value in the build settings says the same thing, for a phone set to
+   neither language. */
+"CFBundleDisplayName" = "Potik";

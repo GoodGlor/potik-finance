@@ -1,0 +1,662 @@
+/* MonitorFinance — English
+   The KEY is the Ukrainian source text: a key with no entry here renders
+   as the key itself, so a string nobody has translated appears in
+   Ukrainian rather than as a raw identifier. See L10n.swift.
+
+   Keys carrying %%@ / %%lld were taken from `xcodebuild
+   -exportLocalizations`, not written by hand — SwiftUI decides the
+   specifier from the interpolated type, and a guessed one silently
+   fails to match. Keys carrying %%d are ours, passed to String(format:). */
+
+" (не діє — про такі операції питаємо щоразу)" = " (inactive — we ask about these every time)";
+" · журнал заповнений, нові рішення не пишуться" = " · the log is full, new decisions are not being written";
+"%@ в іншій валюті пропущено — застосунок рахує лише гривню." = "%@ in another currency were skipped — the app counts hryvnia only.";
+"%@ л · %@ · середня %@/л" = "%@ l · %@ · %@/l average";
+"%@ л · %@/л" = "%@ l · %@/l";
+"%@ підключено" = "%@ connected";
+"%@ — %.1f рази на місяць, у середньому %@" = "%@ — %.1f times a month, %@ on average";
+"%@ — %d%% усіх витрат за %d міс." = "%@ — %d%% of all spending over %d months";
+"%@: витрати %@ проти доходу %@." = "%@: spending %@ against income %@.";
+"%lld операцій за %lld міс." = "%lld transactions over %lld months";
+"1 місяць" = "1 month";
+"12 місяців" = "12 months";
+"3 місяці" = "3 months";
+"6 місяців" = "6 months";
+"Face ID замість коду?" = "Face ID instead of a code?";
+"monobank віддає один місяць на запит і дозволяє один запит на хвилину. Перший місяць з'явиться одразу, решта — у фоні." = "monobank returns one month per request and allows one request a minute. The first month appears at once, the rest in the background.";
+"monobank відповів незрозуміло — спробуємо ще раз згодом" = "monobank answered in a way we did not understand — we will try again later";
+"monobank відповів помилкою. Спробуйте пізніше." = "monobank answered with an error. Try again later.";
+"monobank відхилив токен — підключіть заново" = "monobank rejected the token — connect again";
+"monobank дозволяє одну перевірку на хвилину. Спробуйте за 60 секунд." = "monobank allows one check a minute. Try again in 60 seconds.";
+"monobank просить зачекати — спробуємо ще раз згодом" = "monobank is asking us to wait — we will try again later";
+"«%@» вже є у плані — змініть відсоток наявного рядка." = "“%@” is already in the plan — change the existing line's percentage.";
+"«Бюджет» — частки, а не суми" = "“Budget” — shares, not sums";
+"«Розібрати» — одна відповідь на магазин" = "“Sort” — one answer per shop";
+"«Як у системі» — світла чи темна разом із рештою телефона." = "“As in system” — light or dark along with the rest of the phone.";
+"Імпортувати виписку" = "Import a statement";
+"Інший клієнт monobank" = "A different monobank customer";
+"Історія покупок залишиться. Токен буде видалено з пристрою." = "Your purchase history stays. The token will be deleted from this device.";
+"Історія покупок залишиться." = "Your purchase history stays.";
+"Адреса Apps Script" = "Apps Script address";
+"Але чекати не обов'язково: вкажіть свою суму на місяць. Коли дані прийдуть, перемкнете план на середній дохід." = "You need not wait: set your own monthly amount. When the data arrives you can switch the plan to an average income.";
+"Банк" = "Bank";
+"Банки" = "Banks";
+"Бачите, куди йдуть гроші, без ручного обліку." = "See where your money goes, without keeping books.";
+"Без категорії" = "No category";
+"Без цього рахуються лише зарплата, стипендія та інші надходження." = "Without this, only salary, stipend and other income are counted.";
+"Без чека" = "No receipt";
+"Безпека" = "Security";
+"Блокувати одразу" = "Lock immediately";
+"Бюджет за частками доходу" = "A budget by shares of income";
+"Бюджет" = "Budget";
+"Введіть код" = "Enter your code";
+"Ввести код" = "Enter code";
+"Версія %@" = "Version %@";
+"Версія та що вже готово" = "Version and what is ready";
+"Взяти зразок чека" = "Use a sample receipt";
+"Ви ділите місячний дохід на частки, а додаток показує, де " = "You split your monthly income into shares, and the app shows where ";
+"Ви кажете, до якої категорії належить продавець, — і всі його " = "You say which category a merchant belongs to, and all of its ";
+"Ви розібрали %@." = "You sorted %@.";
+"Виберіть період і збережіть файл Excel (.xlsx)." = "Choose a period and save the Excel file (.xlsx).";
+"Вибрати покупку" = "Choose a purchase";
+"Вибрати файл" = "Choose a file";
+"Вигляд" = "Appearance";
+"Видалити все" = "Delete everything";
+"Видалити категорію?" = "Delete this category?";
+"Видалити" = "Delete";
+"Видалить код входу, токен monobank, підключені банки й усі ваші рішення. Історію доведеться завантажити заново — після скидання додаток порожній, доки ви не підключите банк ще раз. Адреса для листів залишиться — підключіть пошту знову, і вона буде та сама." = "This deletes your passcode, the monobank token, connected banks and every decision you have made. The history will have to be downloaded again — after a reset the app is empty until you connect a bank once more. Your mail address stays — set the mail up again and it will be the same one.";
+
+/* Board #168 — the reset keeps the mailbox; the confirm alert says so */
+"Адреса для листів залишиться — підключіть пошту знову, і вона буде та сама." = "Your mail address stays — set the mail up again and it will be the same one.";
+"Вимкнені картки не завантажуються. Змінити вибір можна в налаштуваннях банку." = "Cards you turn off are not downloaded. You can change this in the bank's settings.";
+"Виписка ПриватБанку" = "PrivatBank statement";
+"Виписка оновлюватиметься сама. Токен лежить лише на цьому телефоні." = "Your statement will update by itself. The token stays on this phone only.";
+"Виписку з ПриватБанку можна імпортувати файлом." = "A PrivatBank statement can be imported as a file.";
+"Виписку імпортовано" = "Statement imported";
+"Витрат за цей період немає" = "No spending in this period";
+"Витрати" = "Spending";
+"Витрачено" = "Spent";
+"Враховувати подарунки та перекази" = "Count gifts and transfers";
+"Вставте токен сюди" = "Paste your token here";
+"Вставте токен — поле порожнє." = "Paste a token — the field is empty.";
+"Відключити %@?" = "Disconnect %@?";
+"Відключити банк" = "Disconnect bank";
+"Відключити" = "Disconnect";
+"Відкрийте" = "Open";
+"Відкріпити" = "Detach";
+"Гаразд" = "OK";
+"Глибина історії" = "History depth";
+"Головна" = "Home";
+"Готово" = "Done";
+"Гроші лишились у вас — просто на іншому рахунку" = "The money is still yours — just in another account";
+"Далі" = "Next";
+"Дані" = "Data";
+"Де його взяти" = "Where to get one";
+"Додати банк" = "Add a bank";
+"Додати статтю" = "Add a line";
+"Додаток забирає їх із банку — вручну вводити нічого не треба. " = "The app fetches them from your bank — nothing to type in. ";
+"Дозвілля" = "Leisure";
+"Дорога" = "Getting around";
+"Досі не опублікували в кабінеті ДПС — спробуємо ще раз." = "Still not published in the tax office cabinet — we will try again.";
+"Доходу цього місяця ще не було." = "There has been no income this month yet.";
+"Дохід на місяць" = "Monthly income";
+"Дохід" = "Income";
+"Дім" = "Home";
+"Експорт і скидання" = "Export and reset";
+"Експорт" = "Export";
+"Життя" = "Life";
+"Жодна стаття поки не вийшла за межі." = "No line has gone over yet.";
+"Жодного банку не підключено" = "No bank connected";
+"За цей період немає підтверджених чеків." = "No confirmed receipts in this period.";
+"За чеками" = "By receipt";
+"За що повернули гроші" = "What the refund is for";
+"Забагато спроб. Спробуйте через %d:%02d" = "Too many attempts. Try again in %d:%02d";
+"Забути правило" = "Forget the rule";
+"Забути правило?" = "Forget this rule?";
+"Забути" = "Forget";
+"Завантаження зупинилося — потягніть, щоб оновити" = "Loading stopped — pull to refresh";
+"Завантажуємо покупки…" = "Loading purchases…";
+"Завжди відносити «%@» до цієї категорії" = "Always put “%@” in this category";
+"Загальна" = "Overall";
+"Закрити" = "Close";
+"Залишити" = "Keep it";
+"Замість коду при вході" = "Instead of a code when unlocking";
+"Записувати рішення" = "Record decisions";
+"Заправки" = "Fuel";
+"Зберегти" = "Save";
+"Збереження між запусками" = "Saving between launches";
+"Збір даних категоризації" = "Categorisation data collection";
+"Звідки категорія" = "Where the category came from";
+"Звідки ці гроші" = "Where this money came from";
+"Зміна коду" = "Changing the code";
+"Змінити код" = "Change the code";
+"Змінити" = "Change";
+"Значок" = "Icon";
+"Зрозуміло" = "Got it";
+"Камера недоступна в симуляторі" = "The camera is not available in the simulator";
+"Картка" = "Card";
+"Картки" = "Cards";
+"Картки: %@" = "Cards: %@";
+"Каса %@ · чек №%@" = "Register %@ · receipt no. %@";
+"Категорія" = "Category";
+"Категорії та правила" = "Categories and rules";
+"Категорії" = "Categories";
+"Код входу та Face ID" = "Passcode and Face ID";
+"Код входу, Face ID" = "Passcode, Face ID";
+"Код залишиться запасним способом." = "The code stays as a fallback.";
+"Код змінено" = "Code changed";
+"Код при кожному поверненні в застосунок" = "A code every time you come back to the app";
+"Коди не збігаються — спробуйте ще раз." = "The codes do not match — try again.";
+"Коли ви розберете покупку в Черзі, додаток запам'ятає продавця і наступні такі покупки розбере сам. Тут можна буде це скасувати." = "When you sort a purchase in the queue, the app remembers the merchant and sorts the next such purchases itself. You can undo that here.";
+"Короткий огляд на чотири екрани" = "A short four-screen tour";
+"Лишити той самий" = "Keep the same";
+"Магазин повернув гроші — оберіть, за що саме" = "The shop gave money back — choose what for";
+"Ми лише читаємо виписку. Переказати гроші застосунок не може." = "We only read your statement. The app cannot move money.";
+"Мова" = "Language";
+"Місяць понад дохід" = "A month over income";
+"Місяць" = "Month";
+"На головну" = "Go home";
+"Надходження" = "Income";
+"Назва" = "Name";
+"Назви категорій — ваші власні дані й не перекладаються." = "Category names are your own data and are not translated.";
+"Найбільша стаття" = "Largest line";
+"Найчастіший продавець" = "Most frequent merchant";
+"Налаштування" = "Settings";
+"Натисніть «Отримати токен» і зчитайте QR-код застосунком monobank." = "Tap “Get token” and scan the QR code with the monobank app.";
+"Не вдалося зберегти код. Спробуйте ще раз." = "The code could not be saved. Try again.";
+"Не вдалося зчитати зразок" = "The sample could not be read";
+"Не вдалося прочитати файл. Спробуйте вибрати його ще раз." = "The file could not be read. Try choosing it again.";
+"Не вдалося прочитати частину даних" = "Some data could not be read";
+"Не вдалося підготувати файл" = "The file could not be prepared";
+"Не діє: про такі операції питаємо щоразу" = "Inactive: we ask about these every time";
+"Не знайшли покупку, до якої підходить цей чек." = "We could not find a purchase this receipt fits.";
+"Невірний код" = "Wrong code";
+"Недоступно на цьому пристрої" = "Not available on this device";
+"Незнайома каса" = "Unknown register";
+"Немає гривневих карток для синхронізації — застосунок продовжить без вибору карток." = "No hryvnia cards to sync — the app will carry on without a card selection.";
+"Немає зв'язку з monobank — потягніть, щоб оновити" = "No connection to monobank — pull to refresh";
+"Немає зв'язку з monobank." = "No connection to monobank.";
+"Немає покупок без чека" = "No purchases without a receipt";
+"Немає покупок у цій групі" = "No purchases in this group";
+"Нещодавні" = "Recent";
+"Нова назва" = "New name";
+"Нова покупка" = "New purchase";
+"Новий код" = "New code";
+"Новий місяць — %@" = "A new month — %@";
+"Нічого не знайдено" = "Nothing found";
+"Операцію не знайдено" = "Transaction not found";
+"Операція" = "Transaction";
+"Операції приходять самі" = "Transactions arrive on their own";
+"Очистити журнал" = "Clear the log";
+"Очистити й підключити" = "Clear and connect";
+"Перевіряємо токен…" = "Checking the token…";
+"Перейменувати" = "Rename";
+"Перейменувати, об'єднати, видалити" = "Rename, merge, delete";
+"Переказ між своїми картками" = "Transfer between your own cards";
+"Переказ між своїми" = "Transfer between your own";
+"Перекази" = "Transfers";
+"Перша хвилина після виходу — без коду" = "The first minute after leaving — no code";
+"Період імпортованих операцій: %@ – %@" = "Imported transactions cover: %@ – %@";
+"План %@" = "Plan %@";
+"План без прив'язки до місяця" = "Plan with no month attached";
+"План витримується" = "The plan is holding";
+"План на цей місяць" = "Plan for this month";
+"План" = "Plan";
+"Плану ще немає" = "No plan yet";
+"Повернення" = "Refund";
+"Поверніться сюди й виберіть цей файл." = "Come back here and choose that file.";
+"Повторіть код" = "Repeat the code";
+"Повторіть новий код" = "Repeat the new code";
+"Поділитися покупками" = "Share purchases";
+"Поділитися товарами" = "Share goods";
+"Поділитися файлом" = "Share the file";
+"Поза планом" = "Outside the plan";
+"Показати всі %lld" = "Show all %lld";
+"Поки нічого розбирати." = "Nothing to sort just now.";
+"Поки що діє план, складений на %@. Лишити його чи скласти новий?" = "The plan built for %@ is still in force. Keep it, or build a new one?";
+"Покупки ще не завантажилися, тож середній дохід рахувати нема з чого." = "Your purchases have not arrived yet, so there is nothing to average an income from.";
+"Помилка" = "Error";
+"Популярні" = "Popular";
+"Поточний код" = "Current code";
+"Почати" = "Get started";
+"Пошук категорії" = "Search categories";
+"Пошук товарної групи" = "Search product groups";
+"Правил ще немає" = "No rules yet";
+"Правила" = "Rules";
+"Правило з'являється, коли ви розбираєте покупку в Черзі. Далі такі покупки розбираються самі." = "A rule appears when you sort a purchase in the queue. After that, such purchases sort themselves.";
+"Правило збережено" = "Rule saved";
+"Придумайте код" = "Choose a code";
+"Про додаток" = "About";
+"Про такі операції питаємо щоразу — назва не каже, на що пішли гроші." = "We ask about these every time — the name does not say what the money went on.";
+"Продавець або категорія" = "Merchant or category";
+"Продавці, яких додаток розбирає сам" = "Merchants the app sorts by itself";
+"Продовжити" = "Continue";
+"Під час запуску додаток не зміг прочитати: %@. Замість них показано початкові дані." = "At launch the app could not read: %@. Starter data is shown instead.";
+"Підготувати JSONL — покупки" = "Prepare JSONL — purchases";
+"Підготувати JSONL — товари" = "Prepare JSONL — goods";
+"Підготувати файл" = "Prepare the file";
+"Підключені картки" = "Connected cards";
+"Підключити" = "Connect";
+"Підключіть банк" = "Connect a bank";
+"Підтвердити" = "Confirm";
+"Підтвердіть доступ у застосунку." = "Confirm access in the app.";
+"Пізніше" = "Later";
+"Решта" = "The rest";
+"Робота й гроші" = "Work & money";
+"Розберіть чек у покупці — і побачите, з чого склалися витрати." = "Sort a purchase's receipt and you will see what the spending was made of.";
+"Розділіть дохід на частки, щоб бачити, де витрати відходять від плану." = "Split your income into shares to see where spending drifts from the plan.";
+"Розподілено 100%" = "100% allocated";
+"Розібрати за хвилину" = "Sort in a minute";
+"Розібрати" = "Sort";
+"Рік" = "Year";
+"Своя сума" = "Your own amount";
+"Світла" = "Light";
+"Середній дохід" = "Average income";
+"Синхронізація з monobank та імпорт виписки Приват" = "monobank sync and PrivatBank statement import";
+"Синхронізувати %@" = "Sync %@";
+"Сканування чека" = "Scanning a receipt";
+"Скануйте QR із паперового чека — і в одній покупці видно " = "Scan the QR on a paper receipt and one purchase shows ";
+"Скасувати" = "Cancel";
+"Скинути все" = "Reset everything";
+"Скинути додаток" = "Reset the app";
+"Скинути додаток?" = "Reset the app?";
+"Скинути" = "Reset";
+"Скинути…" = "Reset…";
+"Скласти новий" = "Build a new one";
+"Скласти план" = "Build a plan";
+"Скопіюйте токен і вставте його у поле вище." = "Copy the token and paste it into the field above.";
+"Скільки місяців завантажувати з monobank" = "How many months to load from monobank";
+"Скільки історії завантажити?" = "How much history should we load?";
+"Спершу підтвердьте, що це ви." = "First confirm it is you.";
+"Спостереження" = "Observations";
+"Спробувати ще раз" = "Try again";
+"Спробуйте інший місяць або інший запит." = "Try another month or another search.";
+"Статистика з'явиться, коли буде що рахувати." = "Statistics will appear once there is something to count.";
+"Статистика за живими даними" = "Statistics from live data";
+"Статистика" = "Statistics";
+"Створити «%@»" = "Create “%@”";
+"Стрічка" = "Feed";
+"Стрічка, пошук і фільтри" = "Feed, search and filters";
+"Сума на місяць, ₴" = "Amount per month, ₴";
+"Так, %@" = "Yes, %@";
+"Темна" = "Dark";
+"Тиждень" = "Week";
+"Тип" = "Kind";
+"Товарна група" = "Product group";
+"Токен %@" = "%@ token";
+"Токен monobank не знайдено — підключіть банк заново" = "The monobank token was not found — connect the bank again";
+"Токен зберігається лише на цьому пристрої й ніколи нікуди не надсилається, окрім самого банку." = "The token is kept on this device only and is never sent anywhere except to the bank itself.";
+"Тут ви розділите місячний дохід на частки — оренда, продукти, заощадження — і побачите, де витрати від плану відходять." = "Here you split your monthly income into shares — rent, groceries, savings — and see where your spending drifts from the plan.";
+"Тут з'являться ваші покупки, щойно банк їх віддасть." = "Your purchases will appear here as soon as the bank sends them.";
+"Тільки для тестування. Якщо увімкнути, у файл на цьому пристрої записуються два види рішень. Перший — «цей продавець → ця категорія»: назва продавця, код категорії банку (MCC), банк, підказка Привату, ваша відповідь і час. Другий — товари з чеків: назва товару, що вгадав додаток, що обрали ви, і магазин. Сума НЕ записується — лише знак «+» чи «−». Якщо вказати адресу Apps Script, ці ж рядки надсилаються туди." = "For testing only. When this is on, two kinds of decision are written to a file on this device. First, “this merchant → this category”: the merchant name, the bank's category code (MCC), the bank, PrivatBank's suggestion, your answer and the time. Second, receipt goods: the product name, what the app guessed, what you chose, and the shop. The amount is NOT recorded — only a “+” or “−” sign. If you set an Apps Script address, the same rows are sent there.";
+"У Приват24 відкрийте картку → «Виписка»." = "In Privat24 open the card → “Statement”.";
+"У виписці немає жодної операції." = "The statement contains no transactions.";
+"Увійти в MonitorFinance" = "Unlock MonitorFinance";
+"Увійти за Face ID" = "Unlock with Face ID";
+"Увімкнути Face ID" = "Turn on Face ID";
+"Уже розібрані операції залишаться як є. Наступні покупки цього продавця знову спитаємо." = "Transactions already sorted stay as they are. We will ask again about this merchant's next purchases.";
+"Усе розібрано" = "All sorted";
+"Усе, що є" = "Everything there is";
+"Усі операції, категорії та правила одним файлом. Банківські токени й код входу не експортуються — вони не зберігаються у файлах." = "Every transaction, category and rule in one file. Bank tokens and your passcode are not exported — they are not kept in files.";
+"Усі" = "All";
+"Файл не схожий на виписку ПриватБанку — таблиці «Історія операцій» не знайдено." = "This does not look like a PrivatBank statement — no “Історія операцій” table was found.";
+"Файл читається лише на цьому пристрої й нікуди не надсилається." = "The file is read on this device only and is not sent anywhere.";
+"Факт %@" = "Actual %@";
+"Фільтри" = "Filters";
+"Фіскальні чеки та їхні товари" = "Fiscal receipts and their goods";
+"Це лише приклад, з якого зручно почати — змініть під себе." = "This is only a starting example — change it to suit you.";
+"Це не можна скасувати" = "This cannot be undone";
+"Це не схоже на фіскальний чек" = "This does not look like a fiscal receipt";
+"Це не файл Excel (.xlsx). Збережіть виписку з Приват24 і виберіть її." = "This is not an Excel file (.xlsx). Save the statement from Privat24 and choose it.";
+"Це повернення покупки" = "This is a refund";
+"Цей токен належить іншому клієнту monobank. Очистити наявну історію та почати заново?" = "This token belongs to a different monobank customer. Clear the existing history and start again?";
+"Цей токен не підходить. Перевірте, що скопіювали його повністю." = "This token does not work. Check that you copied all of it.";
+"Цього місяця" = "This month";
+"Ці файли збережено на пристрої — їх не перезаписано, тож дані ще можна відновити. Не скидайте додаток: скидання видалить і їх." = "These files are kept on the device — they were not overwritten, so the data can still be recovered. Do not reset the app: a reset deletes them too.";
+"Чек не додано" = "No receipt attached";
+"Чек показує, що саме куплено" = "A receipt shows exactly what was bought";
+"Чек розпізнано" = "Receipt recognised";
+"Чек розпізнано, товари з'являться після синхронізації" = "Receipt recognised, the goods will appear after syncing";
+"Чек №%@" = "Receipt no. %@";
+"Чек" = "Receipt";
+"Чотири цифри. Ваші фінанси бачитимете лише ви." = "Four digits. Only you will see your finances.";
+"Чотири цифри." = "Four digits.";
+"Ще нічого не завантажено. Перші покупки з'являться за хвилину-дві." = "Nothing loaded yet. Your first purchases will appear in a minute or two.";
+"Ще раз, щоб не помилитися." = "Once more, to be sure.";
+"Ще спостереження" = "More observations";
+"Що вже справжнє" = "What is already real";
+"Щоб входити без коду" = "To unlock without a code";
+"Щоб ніхто, крім вас, не бачив ваші гроші." = "So nobody but you can see your money.";
+"Щодня" = "Every day";
+"Як користуватись" = "How to use it";
+"Як у системі" = "As in system";
+"Яка це покупка?" = "Which purchase is this?";
+"Якщо така категорія вже є, дві об'єднаються в одну." = "If a category with that name exists, the two will merge into one.";
+"Які картки синхронізувати?" = "Which cards should sync?";
+"банки й картки" = "banks and cards";
+"ви підтвердили" = "you confirmed it";
+"витрати відходять від плану." = "spending drifts from the plan.";
+"для витрат" = "for spending";
+"для надходжень" = "for money in";
+"для переказів" = "for transfers";
+"з %@ доходу" = "of %@ income";
+"з файлу виписки" = "from a statement file";
+"за правилом" = "by a rule";
+"за схожими" = "from similar ones";
+"категорії" = "categories";
+"ліміт %@" = "limit %@";
+"майже одразу" = "almost at once";
+"налаштування" = "settings";
+"обрано" = "chosen";
+"переказ між своїми картками" = "transfer between your own cards";
+"переказ між своїми" = "transfer between your own";
+"питаємо щоразу" = "we ask every time";
+"план бюджету" = "the budget plan";
+"плани попередніх місяців" = "plans for earlier months";
+"поки не закінчиться" = "until it runs out";
+"покупки, минулі й майбутні, розкладаються самі." = "purchases, past and future, sort themselves.";
+"попередній місяць" = "previous month";
+"правила категоризації" = "categorisation rules";
+"продукти окремо від решти." = "groceries apart from the rest.";
+"пропущено" = "skipped";
+"свої картки" = "own cards";
+"скоро" = "coming soon";
+"стан синхронізації" = "sync state";
+"уже підключено" = "already connected";
+"це не витрата" = "not spending";
+"чеки" = "receipts";
+"чеки, що завантажуються" = "receipts being downloaded";
+"ще не розібрано" = "not sorted yet";
+
+/* Board #91 — the PrivatBank email connection */
+"Звідки брати покупки?" = "Where should purchases come from?";
+"Можна і те, і те: листи показують нові покупки одразу, виписка приносить історію." = "Both work together: letters show new purchases right away, a statement brings the history.";
+"Отримувати листи" = "Receive letters";
+"файл .xlsx з Приват24" = "an .xlsx file from Privat24";
+"Приват24 надсилає лист про кожну покупку" = "Privat24 sends a letter for every purchase";
+"підключено" = "connected";
+"потрібно підключити заново" = "needs reconnecting";
+"Листи з Приват24" = "Letters from Privat24";
+"Ваша адреса" = "Your address";
+"Створюємо адресу…" = "Creating your address…";
+"Скопіювати адресу" = "Copy the address";
+"Адреса належить лише вам. Листи читає сервер, а покупки з них потрапляють на цей телефон." = "The address is yours alone. The server reads the letters; the purchases in them land on this phone.";
+"Код підтвердження" = "Confirmation code";
+"Як налаштувати" = "How to set it up";
+"У пошті, куди приходять листи ПриватБанку, увімкніть пересилання на адресу вище." = "In the mailbox where PrivatBank letters arrive, turn on forwarding to the address above.";
+"Пошта надішле код підтвердження — він з'явиться на цьому екрані." = "Your mail provider will send a confirmation code — it will appear on this screen.";
+"Введіть код у своїй пошті, щоб пересилання запрацювало." = "Enter that code in your mailbox to activate forwarding.";
+"Листи надходять" = "Letters are arriving";
+"Листів ще немає" = "No letters yet";
+"Перший лист прийде після наступної покупки." = "The first one will arrive after your next purchase.";
+"Перевірити" = "Check";
+"Доступ більше не діє. Підключіть заново — адреса буде нова." = "This access no longer works. Connect again — the address will be a new one.";
+"Забагато спроб поспіль. Спробуйте за годину." = "Too many attempts in a row. Try again in an hour.";
+"Немає зв'язку із сервером." = "No connection to the server.";
+"Сервер відповів помилкою. Спробуйте пізніше." = "The server returned an error. Try again later.";
+"Не підключено" = "Not connected";
+"Підключити пошту" = "Connect email";
+"Відключити пошту" = "Disconnect email";
+"Відключити пошту?" = "Disconnect email?";
+"Все одно забути на цьому пристрої" = "Forget it on this device anyway";
+"Історія покупок залишиться. Адреса для листів перестане працювати." = "Your purchase history stays. The address for letters will stop working.";
+"Доступ більше не діє — підключіть пошту заново." = "This access no longer works — connect email again.";
+"Листів ще немає." = "No letters yet.";
+"ПриватБанк не приймає доступ — підключіть пошту заново" = "PrivatBank no longer accepts this access — connect email again";
+"Спробувати ще раз" = "Try again";
+"листи з пошти" = "letters from email";
+"Підключити заново" = "Connect again";
+"листи або файл виписки" = "letters or a statement file";
+"офіційний доступ %@" = "official %@ access";
+
+/* Assembled at runtime — reached through L10n.t or LocalizedStringKey(_:),
+   so `xcodebuild -exportLocalizations` cannot see them. */
+"%@ — даних ще немає" = "%@ — no data yet";
+"%@ даних є лише за %d — %@" = "%@ there is data for only %d — %@";
+"Залишилось %@ із запланованих %@." = "%@ left of the %@ planned.";
+"«%@» — вже %@ замість запланованих %@, на %@ більше." = "“%@” — already %@ instead of the planned %@, %@ more.";
+"Розподілено %@ · залишилось %@" = "Allocated %@ · %@ left";
+"Розподілено %@ · на %@ більше" = "Allocated %@ · %@ over";
+"Правило забуто. Наступні покупки «%@» знову спитаємо." = "Rule forgotten. We will ask about future “%@” purchases again.";
+"Правило: «%@» → %@%@" = "Rule: “%@” → %@%@";
+"Спершу оберіть категорію — тоді її можна зробити правилом для «%@»." = "Pick a category first — then it can become a rule for “%@”.";
+"Рядок %lld виписки не вдалося розібрати. Спробуйте зберегти файл ще раз." = "Row %lld of the statement could not be read. Try saving the file again.";
+"Чек більший за покупку на %@ — не можемо розподілити" = "The receipt exceeds the purchase by %@ — cannot split";
+"%@ — переказ між своїми" = "%@ — transfer between your own";
+"Чек на %@, покупка на %@" = "Receipt for %@, purchase for %@";
+
+/* Newly visible once the copy stopped taking Text's verbatim overload. */
+"Камера потрібна лише щоб зчитати QR-код на фіскальному чеку." = "The camera is only used to read the QR code on a fiscal receipt.";
+"Face ID замінює код входу в застосунок." = "Face ID replaces the app's passcode.";
+"%@ api.monobank.ua у браузері." = "%@ api.monobank.ua in a browser.";
+"Завантажуємо покупки… %lld з %lld" = "Loading purchases… %lld of %lld";
+"Нових операцій: %lld, оновлено: %lld." = "New transactions: %lld, updated: %lld.";
+"Нових операцій: %lld." = "New transactions: %lld.";
+"Скопійовано" = "Copied";
+"Спробувати за %lld с" = "Try again in %lld s";
+"%lld покупок · %lld товарів · надіслано %lld · помилок %lld" = "%lld purchases · %lld goods · sent %lld · failed %lld";
+"%lld покупок · %lld товарів · надіслано %lld · помилок %lld · журнал заповнений, нові рішення не пишуться" = "%lld purchases · %lld goods · sent %lld · failed %lld · the log is full, new decisions are not written";
+
+/* Board #91 — the two setup paths, spelled out */
+"Пересилання з вашої пошти" = "Forwarding from your mailbox";
+"Листи ПриватБанку залишаються у вас, а копія приходить сюди." = "PrivatBank's letters stay with you; a copy comes here.";
+"Скопіюйте адресу кнопкою вище." = "Copy the address with the button above.";
+"Відкрийте налаштування пошти НА КОМП'ЮТЕРІ. У Gmail: «Налаштування» → «Пересилання та POP/IMAP» → «Додати адресу пересилання». У застосунку Gmail цього пункту немає." = "Open your mail settings ON A COMPUTER. In Gmail: Settings → “Forwarding and POP/IMAP” → “Add a forwarding address”. The Gmail app has no such setting.";
+"Вставте скопійовану адресу й підтвердьте." = "Paste the copied address and confirm.";
+"Пошта надішле на неї код підтвердження. Поверніться сюди, натисніть «Перевірити» — код з'явиться на цьому екрані." = "Your mail provider will send a confirmation code to it. Come back here and tap “Check” — the code will appear on this screen.";
+"Введіть код у налаштуваннях пошти та увімкніть пересилання." = "Enter that code in your mail settings and turn forwarding on.";
+"Порада: там же створіть фільтр за відправником ПриватБанку й позначте «пересилати». Інакше сюди йтиме вся ваша пошта, а не лише листи банку." = "Tip: while you are there, add a filter on PrivatBank as the sender and set it to forward. Otherwise all of your mail comes here, not just the bank's.";
+
+/* Board #94 — a category says what it is */
+"Тип категорії" = "Category type";
+"Витрата" = "Spending";
+"Подарунок" = "Gift";
+"Дохід перерахується за всі місяці, а не лише за наступні." = "Income is recalculated for every month, not only for the ones ahead.";
+"Сюди потрапляють усі надходження, які додаток ще не розібрав, тому це завжди дохід." = "Every incoming payment the app has not sorted yet lands here, so this is always income.";
+
+/* Board #96 — copy that reached an English reader in Ukrainian.
+
+   Every key here was invisible to the two guards board #85 and #93 left
+   behind: three had no entry at all (the coverage guard skips interpolated
+   literals, because SwiftUI rewrites `\(n)` into a specifier the source does
+   not contain), and the rest were assembled into a plain `String` before they
+   reached a view, which takes Text's verbatim overload. */
+"План за %@" = "Plan for %@";
+"Перші %lld карток — це %@ ваших витрат." = "The first %lld cards are %@ of your spending.";
+"%lld з %lld" = "%lld of %lld";
+"%@ — переказ між своїми" = "%@ — a transfer between your own cards";
+"%@ · %@ — що це?" = "%@ · %@ — what was this?";
+"Разом %@ — розберемо?" = "%@ in total — shall we sort it out?";
+"%@ перейдуть до «Інше»." = "%@ will move to «Інше».";
+
+/* Board #100 — one correction, offered to the merchant's backlog */
+"Ще %@ «%@» мають іншу категорію." = "%@ more from «%@» have a different category.";
+"Змінити і їх? Це не створює правила — майбутні покупки вирішує перемикач нижче." = "Change those too? This writes no rule — the toggle below decides future purchases.";
+"Змінити всі" = "Change them all";
+"Тільки цю" = "Just this one";
+"Змінено ще %@" = "%@ more changed";
+
+/* Board #101 — statistics scoped to a bank or a card */
+"Усі банки" = "All banks";
+
+/* Board #165 — the mark on a disconnected bank whose rows are still here.
+   Copy, so it translates; the bank's name beside it is the person's data and
+   never does. */
+"відключено" = "disconnected";
+
+/* Board #113 — the account is created by a tap, not by a screen appearing */
+"Створити адресу для листів" = "Create an address for the letters";
+"Ми створимо на сервері окрему адресу лише для вас. Листи ПриватБанку читатиме сервер, а покупки з них з'являться на цьому телефоні." = "We will create a separate address on the server, for you alone. The server reads the PrivatBank letters, and the purchases in them appear on this phone.";
+"Відключити можна будь-коли: Налаштування → Банки → ПриватБанк. Адреса тоді перестане приймати листи." = "You can disconnect at any time: Settings → Banks → PrivatBank. The address then stops accepting letters.";
+"Поки ви не натиснете кнопку, нічого не створено." = "Until you tap the button, nothing has been created.";
+"Створити адресу" = "Create the address";
+
+/* Board #109 — choosing a month in the feed, and what that month cost */
+"витрати %@" = "spending %@";
+"цей місяць" = "this month";
+"Цей місяць" = "This month";
+
+/* Board #110 — with or without a fiscal receipt */
+"Чек" = "Receipt";
+"З чеком" = "With a receipt";
+"Без чека" = "Without a receipt";
+
+/* Board #103 — one category answered for several queue cards */
+"Вибрати" = "Select";
+"Виберіть картки" = "Choose cards";
+
+/* Board #130 — the app's own name, TRANSLITERATED not translated.
+   «Потік» is a Ukrainian word and stays that word for an English reader;
+   only the script changes, so the brand survives the language switch. */
+"Потік" = "Potik";
+"Увійти в Потік" = "Sign in to Potik";
+
+/* Board #112 — the way back into the forwarding instructions, and the
+   consequence of each action written before the tap rather than inside
+   the confirmation dialog. The two costs are a PAIR: «the same» against
+   «a different one» is the distinction that was missing. */
+"Як налаштувати пересилання" = "How to set up forwarding";
+"Адреса залишиться та сама." = "The address stays the same.";
+
+/* Board #111 — a new address is never issued silently. The state a
+   restore onto a new phone leaves: the data came back, the secret did
+   not (it is stored ThisDeviceOnly and excluded from backups). */
+"Потрібна нова адреса" = "A new address is needed";
+"Цей телефон уже мав адресу для листів, але ключ до неї не зберігся — так буває після перенесення на новий телефон." = "This phone already had an address for letters, but the key to it did not survive — which happens after moving to a new phone.";
+"Нова адреса буде ІНШОЮ. Старе пересилання у вашій пошті й далі надсилатиме листи на стару адресу, доки ви не заміните її на нову — інакше листи просто перестануть надходити." = "The new address will be a DIFFERENT one. The old forwarding rule in your mail will keep sending letters to the old address until you replace it with the new one — otherwise the letters simply stop arriving.";
+"Видати нову адресу" = "Issue a new address";
+"Ключ до адреси не зберігся" = "The key to the address did not survive";
+"Нова адреса буде іншою — пересилання у вашій пошті треба буде замінити." = "The new address will be a different one — the forwarding rule in your mail will need replacing.";
+
+/* Board #107 — the walkthrough that is operated rather than read. Each
+   step ends when the person presses the real tab, so the copy names the
+   tab by the label printed on it. */
+"Три екрани — і ви знаєте застосунок" = "Three screens and you know the app";
+"Коротка екскурсія. Кожен крок закінчується тим, що ви самі натискаєте кнопку внизу." = "A short tour. Each step ends with you pressing a button at the bottom yourself.";
+"Почати" = "Start";
+"«Розібрати» — одна відповідь на магазин" = "“Sort” — one answer per shop";
+"Ви кажете, до якої категорії належить продавець, — і всі його покупки, минулі й майбутні, розкладаються самі. Натисніть «Розібрати» внизу." = "You say which category a seller belongs to, and all their purchases, past and future, sort themselves. Press “Sort” at the bottom.";
+"«Бюджет» — частки, а не суми" = "“Budget” — shares, not sums";
+"Ви ділите місячний дохід на частки, а додаток показує, де витрати відходять від плану. Натисніть «Бюджет» внизу." = "You split the month's income into shares, and the app shows where spending drifts from the plan. Press “Budget” at the bottom.";
+"Банки — на «Головній»" = "Banks live under “Home”";
+"Натисніть «Головна» внизу: звідти Налаштування → Банки, щоб додати ще банк або імпортувати виписку файлом." = "Press “Home” at the bottom: from there, Settings → Banks, to add another bank or import a statement file.";
+"Це все" = "That's all";
+"Операції приходять самі — вводити вручну нічого не треба. Повний опис завжди є в «Про додаток»." = "Transactions arrive on their own — nothing needs typing in. The full description is always in “About”.";
+"Кнопки — внизу екрана" = "The buttons are at the bottom";
+
+/* Board #97 — a statement emailed to the issued address becomes history.
+   Forwarding only ever catches letters from now on; this is how
+   everything before today gets in. */
+"Надійшла виписка" = "A statement arrived";
+"Файл, який ви надіслали на цю адресу, готовий до завантаження. Покупки, які вже є в застосунку, не додадуться вдруге." = "The file you sent to this address is ready to download. Purchases the app already has will not be added a second time.";
+"Завантажити виписку" = "Download the statement";
+"Виписку завантажено" = "Statement downloaded";
+"уже було: %lld" = "already had: %lld";
+"Історія одним файлом" = "Your history in one file";
+"У Приват24 замовте виписку за потрібний період у форматі Excel." = "In Privat24, request a statement for the period you want, in Excel format.";
+"Поверніться сюди й натисніть «Перевірити»." = "Come back here and press “Check”.";
+"Файл зберігається на сервері не довше тижня і видаляється одразу після завантаження." = "The file is kept on the server for at most a week, and is deleted as soon as it is downloaded.";
+"Не вдалося прочитати цей файл. Перевірте, що це виписка з Приват24 у форматі Excel." = "That file could not be read. Check that it is a Privat24 statement in Excel format.";
+
+/* Board #114 — the budget can be scoped to some banks. One plan with a
+   filter, not a plan per bank; a change takes effect next month because
+   a half-spent month has a plan somebody decided against. */
+"Які банки рахує бюджет" = "Which banks the budget counts";
+"План лишається один. Ви лише обираєте, чиї покупки він рахує — і дохід береться з тих самих карток." = "There is still one plan. You are only choosing whose purchases it counts — and the income comes from those same cards.";
+"Усі банки" = "All banks";
+"Обсяг бюджету" = "Budget scope";
+"Зміна почне діяти з наступного місяця" = "The change takes effect next month";
+"До кінця цього місяця план рахує так, як рахував — ви вже приймали рішення за цими числами. Новий обсяг застосується з %@." = "Until the end of this month the plan counts as it has been counting — you have already made decisions against these numbers. The new scope applies from %@.";
+"З %@: %@" = "From %@: %@";
+
+/* Board #148 — the list of imported statements, and the two-way delete. */
+"Виписки" = "Statements";
+"Видалити лише файл" = "Delete the file only";
+"Видалити разом з операціями" = "Delete with its transactions";
+"за %@ – %@" = "for %@ – %@";
+"%lld вже було" = "%lld already known";
+"Зникнуть %@." = "%@ will be removed.";
+"Зникнуть %@, з них %lld ви вже розібрали." = "%@ will be removed, %lld of which you have already sorted.";
+"Операцій із цього файлу вже немає — залишиться прибрати сам запис." = "None of this file's transactions are left — only the record itself will go.";
+
+/* Board #158 — the mailbox is stable, and only «Змінити адресу» ends it. */
+"Відновити пошту" = "Resume email";
+"Відновити пошту?" = "Resume email?";
+"Відновити" = "Resume";
+"Листи, що надійшли за цей час, підтягнуться." = "Letters that arrived meanwhile will be pulled in.";
+"Нові листи не завантажуватимуться. Адреса залишиться вашою, пересилання можна не чіпати — увімкнути можна будь-коли." = "New letters will not be downloaded. The address stays yours and the forwarding rule can stay where it is — you can turn this back on at any time.";
+"Адреса та сама — імпорт почнеться з того місця, де спинився." = "Same address — importing picks up where it left off.";
+"Адреса залишиться вашою й далі прийматиме листи. Пересилання можна не чіпати." = "The address stays yours and goes on accepting letters. You can leave the forwarding rule alone.";
+"Імпорт вимкнено. Адреса жива й далі приймає листи." = "Importing is off. The address is alive and still accepting letters.";
+"Змінити адресу" = "Change the address";
+"Змінити адресу?" = "Change the address?";
+"Видати нову" = "Issue a new one";
+"Все одно видати нову адресу" = "Issue a new address anyway";
+"Стара адреса перестане приймати листи. Пересилання у своїй пошті доведеться перенаправити." = "The old address stops accepting letters. You will have to repoint the forwarding rule in your mailbox.";
+"Стару адресу буде видалено — листи на неї більше не дійдуть. У своїй пошті пересилання треба буде перенаправити на нову. Історія покупок залишиться." = "The old address will be deleted — letters sent to it will no longer arrive. You will need to repoint the forwarding rule in your mailbox to the new one. Your purchase history stays.";
+"Історія покупок залишиться. Адреса для листів теж — її можна змінити лише окремо." = "Your purchase history stays. So does the email address — it can only be changed separately.";
+"Не вдалося видалити адресу" = "Could not delete the address";
+"Видалити лише з телефона" = "Delete from the phone only";
+
+/* Board #170 — ending the mailbox on purpose, with nothing in its place. */
+"Видалити адресу назавжди" = "Delete the address for good";
+"Видалити адресу назавжди?" = "Delete the address for good?";
+/* «Видалити» itself is already in this catalogue — board #148's statement
+   delete uses the same word, and a second entry is a duplicate key. */
+"Пошта вимкнеться, і цієї адреси більше не буде. Нова, якщо колись знадобиться, буде інша." = "Email switches off and this address is gone. A new one, if you ever need it, will be a different address.";
+"Повернути саме цю адресу вже не можна — нова буде інша. Історія покупок залишиться на телефоні." = "This exact address cannot be brought back — a new one would be different. Your purchase history stays on the phone.";
+"Адреса залишиться живою на сервері й далі прийматиме листи, а прочитати їх буде нікому." = "The address would stay alive on the server and go on accepting letters, with nobody able to read them.";
+"Дані з телефона ще на місці. Адреса для листів залишиться живою на сервері й далі прийматиме листи, а прочитати їх буде нікому — ключ зникне разом із рештою." = "Nothing has been removed from the phone yet. The email address would stay alive on the server and go on accepting letters, with nobody able to read them — the key disappears along with everything else.";
+
+/* Board #157 — disconnecting a bank asks about its transactions. */
+"Відключити банк" = "Disconnect the bank";
+"Відключити разом з операціями" = "Disconnect and remove the transactions";
+"Операцій від цього банку немає." = "There are no transactions from this bank.";
+"Можна прибрати %@ — або залишити всі." = "You can remove %@ — or keep them all.";
+"Можна прибрати %@, з них %lld ви вже розібрали — або залишити всі." = "You can remove %@, %lld of which you have already sorted — or keep them all.";
+"Токен буде видалено з пристрою." = "The token will be deleted from this device.";
+"Адреса для листів залишиться — її можна змінити лише окремо." = "The email address stays — it can only be changed separately.";
+
+/* Board #145 — PrivatBank emails a download link, not a statement file. */
+"Виписка чекає на сайті банку" = "A statement is waiting on the bank's site";
+"ПриватБанк надіслав не файл, а посилання. Можна завантажити виписку сюди — або відкрити посилання й зробити це самому." = "PrivatBank sent a link rather than a file. You can download the statement here — or open the link and do it yourself.";
+"Відкрити посилання" = "Open the link";
+"Приховати" = "Hide";
+
+/* Board #166 — a disconnected bank that still owns rows stays reachable. */
+"Відключені" = "Disconnected";
+"Нових операцій не буде, але старі залишились. Відкрийте банк, щоб прибрати їх." = "No new transactions will arrive, but the old ones are still here. Open a bank to remove them.";
+"Цей банк відключено. Нових операцій не буде — старі можна залишити або прибрати." = "This bank is disconnected. No new transactions will arrive — you can keep the old ones or remove them.";
+"Прибрати операції" = "Remove the transactions";
+"Прибрати операції?" = "Remove the transactions?";
+"Прибрати" = "Remove";
+
+/* Board #171 — the app can follow the statement link when asked. */
+"Завантажити в додаток" = "Download into the app";
+"Спробуйте відкрити посилання — можливо, воно відкриється у вашому браузері." = "Try opening the link — it may open in your browser.";
+"Файл завантажився, але прочитати його не вдалося." = "The file downloaded, but could not be read.";
+
+/* Board #173 — the file-history steps describe what actually arrives. */
+"Пересилання ловить лише нові покупки. Щоб перенести те, що було раніше, замовте виписку в Приват24 і перешліть її сюди листом." = "Forwarding only catches new purchases. To bring across what came before, order a statement in Privat24 and forward that letter here.";
+"Банк надішле її вам на пошту. Перешліть цього листа на адресу вище САМІ — правило пересилання ловить лише повідомлення про покупки, а не виписки." = "The bank emails it to you. Forward that letter to the address above YOURSELF — the forwarding rule only catches purchase notifications, not statements.";
+"Банк надсилає або посилання, або сам файл. Якщо прийшло посилання — на екрані ПриватБанку з'явиться «Виписка чекає на сайті банку» з кнопкою «Завантажити в додаток». Якщо прийшов файл — він з'явиться тут кнопкою «Завантажити виписку»." = "The bank sends either a link or the file itself. If a link arrives, the PrivatBank screen shows “Your statement is waiting on the bank's site” with a “Download into the app” button. If the file arrives, it appears here as “Download the statement”.";
+
+/* Board #175 — the last few letters, and what the app made of each. */
+"Останні листи" = "Recent letters";
+"не вдалося прочитати" = "could not be read";
+"операція додана" = "transaction added";
+"код підтвердження" = "confirmation code";
+"виписка" = "statement";
+"не банківський лист" = "not a bank letter";
+
+/* Board #174 — the setup half folds away once it has worked. */
+"Сховати налаштування" = "Hide the setup";
+
+/* Board #185 — the receipt's goods, waiting to be sorted, in the queue */
+"Товари з чека чекають — %@." = "The receipt's items are waiting — %@.";
+"Розібрати товари" = "Sort the items";
+"Товари з чека" = "Receipt items";
+"Чек додано. Товари з'являться тут, коли ДПС їх опублікує." = "Receipt added. The items will appear here once the tax service publishes them.";
+
+/* Board #187 — the size of a waiting statement */
+"КБ" = "KB";
